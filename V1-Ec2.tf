@@ -21,5 +21,5 @@ resource "aws_key_pair" "testkeypair" {
 }
 
 resource "aws_security_group" "newsecuritygroup" {
-  
+ingressRule  
 }
